@@ -1,0 +1,24 @@
+[
+    {
+        "agsSource": {
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Coastal_Resilience_base_data",
+            "folders": [
+                {
+                    "name": "Meso_American_Reef",
+                    "services": [
+                        { "name": "Boundaries", "type":"dynamic" },
+						{ "name": "Bathymetry", "type":"dynamic" },
+                        { "name": "Ecological", "type":"dynamic" },
+						{ "name": "Vulnerability_to_Climate_Change", "type":"dynamic" },
+                        { "name": "Sea_Level_Rise", "type":"dynamic" },
+						{ "name": "Air_Temperature_Scenarios", "type":"dynamic" },
+						{ "name": "Precipitation", "type":"dynamic" },
+						{ "name": "Precipitation_and_Air_Temperature", "type":"dynamic" },
+						{ "name": "Sea_Surface_Warming", "type":"dynamic" }
+                    ]
+                } 
+            ]
+        }
+    }
+]
