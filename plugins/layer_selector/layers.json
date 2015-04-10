@@ -2,12 +2,12 @@
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Meso_American_Reef",
-            "folderTitle": "Meso_American_Reef",
+            "folderTitle": "Meso American Reef",
             "folders": [
                 {
                     "name": "",
                     "services": [
-                        { "name": "Meso_American_Reef", "type":"dynamic", "displayName":"Boundaries", "showLayers": [
+                        { "name": "MesoAmerican_Reef", "type":"dynamic", "displayName":"Boundaries", "showLayers": [
                                 {"id":1, "parentLayerId":-1 },
                                 {"id":2, "parentLayerId":-1 },
                                 {"id":3, "parentLayerId":-1 } 
@@ -18,7 +18,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Meso_American_Reef", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
+                        { "name": "MesoAmerican_Reef", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
                                 {"id":5, "parentLayerId":-1 }
                             ]
                         }   
@@ -27,7 +27,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Meso_American_Reef", "type":"dynamic", "displayName":"Ecological", "showLayers": [
+                        { "name": "MesoAmerican_Reef", "type":"dynamic", "displayName":"Ecological", "showLayers": [
                                 {"id":7, "parentLayerId":-1 },
                                 {"id":8, "parentLayerId":-1 },
                                 {"id":9, "parentLayerId":-1 },
@@ -42,7 +42,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Meso_American_Reef", "type":"dynamic", "displayName":"Vulnerability to Climate Change", "showLayers": [
+                        { "name": "MesoAmerican_Reef", "type":"dynamic", "displayName":"Vulnerability to Climate Change", "showLayers": [
                                 {"id":15, "parentLayerId":-1 },
                                 {"id":16, "parentLayerId":-1 }
                             ]
@@ -52,7 +52,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Meso_American_Reef", "type":"dynamic", "displayName":"Sea Level Rise", "showLayers": [
+                        { "name": "MesoAmerican_Reef", "type":"dynamic", "displayName":"Sea Level Rise", "showLayers": [
                                 {"id":18, "parentLayerId":-1 },
                                 {"id":19, "parentLayerId":-1 },
                                 {"id":20, "parentLayerId":-1 }
@@ -63,7 +63,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Meso_American_Reef", "type":"dynamic", "displayName":"Air Temperature Scenerios", "showLayers": [
+                        { "name": "MesoAmerican_Reef", "type":"dynamic", "displayName":"Air Temperature Scenerios", "showLayers": [
                                 {"id":22, "parentLayerId":-1 },
                                 {"id":23, "parentLayerId":-1 }
                             ]
@@ -73,7 +73,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Meso_American_Reef", "type":"dynamic", "displayName":"Precipitation", "showLayers": [
+                        { "name": "MesoAmerican_Reef", "type":"dynamic", "displayName":"Precipitation", "showLayers": [
                                 {"id":25, "parentLayerId":-1 },
                                 {"id":26, "parentLayerId":-1 }
                             ]
@@ -83,7 +83,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Meso_American_Reef", "type":"dynamic", "displayName":"Precipitation and Air Temperature", "showLayers": [
+                        { "name": "MesoAmerican_Reef", "type":"dynamic", "displayName":"Precipitation and Air Temperature", "showLayers": [
                                 {"id":28, "parentLayerId":-1 },
                                 {"id":29, "parentLayerId":-1 },
                                 {"id":30, "parentLayerId":-1 },
@@ -95,7 +95,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Meso_American_Reef", "type":"dynamic", "displayName":"Sea Surface Warming", "showLayers": [
+                        { "name": "MesoAmerican_Reef", "type":"dynamic", "displayName":"Sea Surface Warming", "showLayers": [
                                 {"id":33, "parentLayerId":-1 },
                                 {"id":34, "parentLayerId":-1 }
                             ]
