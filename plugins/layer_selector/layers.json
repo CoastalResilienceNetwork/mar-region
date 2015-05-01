@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Meso_American_Reef",
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Meso_American_Reef",
             "folderTitle": "Meso American Reef",
             "folders": [
                 {
