@@ -59,7 +59,8 @@
             {
                 "id": "Subregion",
                 "display": "Subregion1",
-                "details": "blank example"
+                "details": "example",
+                "shape": [[-119.401817,34.333930],[-119.026909,34.333930],[-119.026909,34.115917],[-119.401817,34.115917]]
             }
         ]
     },
