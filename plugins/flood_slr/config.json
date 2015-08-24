@@ -10,7 +10,7 @@
 			"controls": [
 				{"name":"Choose Sea Level Rise", "type": "radio", "index":-1, "values":[{"name":"1-meter rise","value":"0"},{"name":"2-meter rise", "value":"1"}]}
 				],
-			"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/Meso_American_Reef/MAR_Flood_and_SLR/MapServer",
+			"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef/MAR_Flood_and_SLR/MapServer",
 			"combos": {
 			
 				"-1": [{"type":"dynamic","show":[-1]}],
