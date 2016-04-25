@@ -2,12 +2,12 @@
     "language": "es",
     "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
+    "titleMain": { "text": "La Resiliencia Costera", "url": "http://coastalresilience.org/" },
     "titleDetail": { "text": "Mesoamerican Reef, Central America", "url": "http://coastalresilience.org/project-areas/mesoamerican-reef-introduction" },
 	"headerLinks": [
-        { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
-		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
-        { "text": "GO TO", "url": "#", "items": [
+        { "text": "EMPEZAR", "launchpadId": "get-started", "url": "" },
+		{ "text": "GIRA", "url": "javascript:;", "elementId": "help-overlay-start"},
+        { "text": "IR", "url": "#", "items": [
                 { "text": "Entire USA", "url": "http://maps.coastalresilience.org/us/" },
 				{ "text": "California", "url": "http://maps.coastalresilience.org/ventura/" },
 				{ "text": "Florida Keys", "url": "http://maps.coastalresilience.org/flkeys/" },
@@ -20,8 +20,8 @@
             ]
         },
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
+        { "text": "Fogonadura", "url": "partners.html", "popup": true },
+        { "text": "Datos legales", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
     ],
     "initialExtent": [
         -95.458,
@@ -30,14 +30,14 @@
         21.646
     ],
     "basemaps": [
-        { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
+        { "name": "Topográfica"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
         { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
-        { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
-        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
+        { "name": "Mar"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
+        { "name": "Imágenes"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
         { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
         { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
-        { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
-        { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+        { "name": "Calles"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
+        { "name": "Terreno"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
         "layer_selector",
