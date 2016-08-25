@@ -42,6 +42,7 @@
     "pluginOrder": [
         "layer_selector",
 		"flood_slr",
+        "natural-coastal-protection"
         "measure"
     ],
     "print": {

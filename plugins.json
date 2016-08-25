@@ -7,6 +7,10 @@
     {
       "repo": "map-tree",
       "name": "layer_selector"
+                            },
+    {
+      "repo": "natural-coastal-protection",
+      "name": "natural-coastal-protection"
         }
     ]
 }
