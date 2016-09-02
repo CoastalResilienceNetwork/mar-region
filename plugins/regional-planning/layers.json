@@ -41,12 +41,12 @@
                         "name": "Coral Reef",
                         "includeLayers": [
                             {
-                                "name": "Coral Reefs at Risk",
-                                "displayName": "Reefs at Risk"
-                            },
-                            {
                                 "name": "Coral Reefs",
                                 "displayName": "Reef Locations"
+                            },
+                            {
+                                "name": "Coral Reefs at Risk",
+                                "displayName": "Reefs at Risk"
                             }
                         ]
                     }
@@ -133,12 +133,7 @@
                         "includeAllLayers": true
                     },
                     {
-                        "name": "Hotels",
-                        "includeLayers": [
-                            {
-                                "name": "Hotels"
-                            }
-                        ]
+                        "name": "Hotels"
                     },
                     {
                         "name": "Economic Acitivty",
