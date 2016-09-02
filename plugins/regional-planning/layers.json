@@ -38,7 +38,7 @@
                         "name": "Beaches"
                     },
                     {
-                        "name": "Coral Reefs",
+                        "name": "Coral Reef",
                         "includeLayers": [
                             {
                                 "name": "Coral Reefs at Risk",
@@ -119,7 +119,32 @@
             {
                 "name": "Socioeconomic Exposure",
                 "displayName": "Socioeconomic Exposure",
-                "includeAllLayers": true
+                "includeLayers": [
+                    {
+                        "name": "Built Capital",
+                        "includeLayers": [
+                            {
+                                "name": "Built Capital (BIL $)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Population",
+                        "includeAllLayers": true
+                    },
+                    {
+                        "name": "Hotels",
+                        "includeLayers": [
+                            {
+                                "name": "Hotels"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Economic Acitivty",
+                        "includeAllLayers": true
+                    }
+                ]
             },
             {
                 "name": "Hazards",
