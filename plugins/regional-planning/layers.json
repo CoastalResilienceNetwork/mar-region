@@ -21,7 +21,36 @@
             {
                 "name": "Ecological",
                 "displayName": "Ecological",
-                "includeAllLayers": true
+                "includeLayers": [
+                    {
+                        "name": "Mangroves"
+                    },
+                    {
+                        "name": "Seagrass"
+                    },
+                    {
+                        "name": "Estuaries"
+                    },
+                    {
+                        "name": "Lagoons"
+                    },
+                    {
+                        "name": "Beaches"
+                    },
+                    {
+                        "name": "Coral Reefs",
+                        "includeLayers": [
+                            {
+                                "name": "Coral Reefs at Risk",
+                                "displayName": "Reefs at Risk"
+                            },
+                            {
+                                "name": "Coral Reefs",
+                                "displayName": "Reef Locations"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -47,7 +76,45 @@
             {
                 "name": "Coastal Structures",
                 "displayName": "Coastal Structures",
-                "includeAllLayers": true
+                "includeLayers": [
+                    {
+                        "name": "Green",
+                        "includeLayers": [
+                            {
+                                "name": "Reefs",
+                                "includeLayers": [
+                                    {
+                                        "name": "Coral reefs",
+                                        "displayName": "coral reefs"
+                                    },
+                                    {
+                                        "name": "Reef crests",
+                                        "displayName": "Reef crests"
+                                    },
+                                    {
+                                        "name": "Reef points",
+                                        "displayName": "Reef points"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Mangroves"
+                            },
+                            {
+                                "name": "Beaches"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grey",
+                        "includeLayers":[
+                            {
+                                "name": "Itati Estructuras",
+                                "displayName": "Itati Estructuras"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Socioeconomic Exposure",
@@ -60,7 +127,7 @@
                 "includeAllLayers": true
             },
             {
-                "name": "Reef Protection",
+                "name": "Reef protection",
                 "displayName": "Reef Protection",
                 "includeAllLayers": true
             }
