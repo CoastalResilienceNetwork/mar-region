@@ -1,0 +1,69 @@
+[
+    {
+        "displayName": "Meso American Reef",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
+            "name": "MesoAmerican_Reef" 
+        },
+        "includeLayers": [
+            {
+                "name": "Bathymetry",
+                "displayName": "Bathymetry",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal Management",
+                "displayName": "Coastal Management",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Ecological",
+                "displayName": "Ecological",
+                "includeAllLayers": true
+            }
+        ]
+    },
+    {
+        "displayName": "Quintana Roo",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
+            "name": "MesoAmerican_Reef" 
+        },
+        "includeLayers": [
+            {
+                "name": "Boundaries",
+                "displayName": "Boundaries",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal Management",
+                "displayName": "Coastal Management",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal Structures",
+                "displayName": "Coastal Structures",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Socioeconomic Exposure",
+                "displayName": "Socioeconomic Exposure",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Hazards",
+                "displayName": "Hazards",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Reef Protection",
+                "displayName": "Reef Protection",
+                "includeAllLayers": true
+            }
+        ]
+    }
+]
