@@ -41,12 +41,10 @@
                         "name": "Coral Reef",
                         "includeLayers": [
                             {
-                                "name": "Coral Reefs",
-                                "displayName": "Reef Locations"
+                                "name": "Coral Reefs"
                             },
                             {
-                                "name": "Coral Reefs at Risk",
-                                "displayName": "Reefs at Risk"
+                                "name": "Coral Reefs at Risk"
                             }
                         ]
                     }
@@ -125,15 +123,15 @@
                         "includeLayers": [
                             {
                                 "name": "Built Capital (BIL $)"
+                            },
+                            {
+                                "name": "Hotels"
                             }
                         ]
                     },
                     {
                         "name": "Population",
                         "includeAllLayers": true
-                    },
-                    {
-                        "name": "Hotels"
                     },
                     {
                         "name": "Economic Acitivty",
