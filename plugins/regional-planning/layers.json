@@ -123,6 +123,7 @@
                         "includeLayers": [
                             {
                                 "name": "Built Capital (BIL $)"
+                                "opacity": 0.5
                             }
                         ]
                     },
