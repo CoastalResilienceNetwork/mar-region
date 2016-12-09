@@ -41,6 +41,7 @@
     ],
     "pluginOrder": [
         "layer_selector",
+        "natural_coastal_protection",
 		"flood_slr",
         "measure"
     ],
