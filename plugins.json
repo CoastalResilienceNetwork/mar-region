@@ -5,6 +5,10 @@
             "name": "flood_slr"
     },
     {
+      "repo": "natural-coastal-protection",
+      "name": "natural_coastal_protection"
+    },
+    {
       "repo": "map-tree",
       "name": "layer_selector"
         }
