@@ -40,7 +40,7 @@
         { "name": "Terreno"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "layer_selector",
+        "regional-planning",
         "natural_coastal_protection",
 		"flood_slr",
         "measure"
