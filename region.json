@@ -76,8 +76,15 @@
                     "description": "Need Spanish translation",
                     "pluginName": "natural_coastal_protection"
                 }
-            ]
-      }
+            ],
+            "partners": [
+                {
+                    "logoPath": "img/tnc1.png",
+                    "link": "",
+                    "title": ""
+            }
+        ]
+    }
 }
 
 
