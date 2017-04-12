@@ -67,31 +67,17 @@
             }
         ]
     },
-     "launchpads": [
-        {
-            "id": "get-started",
-            "title": "Getting Started",
-            "description": "Coastal La resiliencia es una herramienta de apoyo a las decisiones que proporciona a los planificadores locales, estatales y nacionales de un proceso para guiar las decisiones para reducir los riesgos ecológicos y socio- económicos de los peligros costeros",
-            "showSubRegions": true,
-            "showByDefault": true,
-            "subRegionDescription": "seleccione una región específica y el mapa te llevará allí , o usted puede explorar todo el mapa.",
-            "categories": [
-              {
-                "name": "Un clic mapas interactivos",
-                "description": "Mapas personalizados para la adaptación , conservación y planificación de la restauración",
-                "issues": [
-                    {
-                      "name": "la vulnerabilidad al cambio climático",
-                      "description": "Comparar vulnerabilidad modelado y real al cambio climático",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJtYXAwIjrEgGV4dGVudMSGxIB0eXBlxIYixInEi8SNIiwieG1pbsSGLTEwNDAwNzE5LjA2NTQ2ODI0MsSbecSexKA6MTQ3NzIzMsSrODc4NDU2MzU4xJvEnWF4xKE5MzPErMSmLjY2OcS7NsSsxLXEgsWOOjLFiTAzxKguMjjEpjU3xKbErcSbc3BhdGlhbFJlZmVyxIxjxJTEhyJ3a2lkxIbEozLEozDEm2zFsGVzdFfGgMaCOjM4xal9xJtfxa9ydHPEhlvEiMSKxIzEjsW9xJHEk8SVxJfGoMSaxJzEt8ShxKPEpcSnxKnEq8StxK/EscSzxZzEn8aDxLvEvcS/xYHFg8WFxYfFicWLxZ3Fj8WRxZMwxZXFl8WZxZsixLbFjcSGxaDFp8WjMcWlxacwxanFqzXFrcWvxbHFs8W1xbfFuW7Fu8SPxb7Gj8aDMMaFxKbGiMaKxozGjsaBxIbGksaUxpUiZnJhbWVJZMabOlswXX3HvcWtZWxlY8SLZEJhc2XEgnBJbmTEicSGMMewc2PFucSMx6HFrmxpdFPIlWXIlzp0cnVlxa15x59NxIPHuciiyKTHsMiLMcehxqbEmcaixJLFvMSWxp/EmceAxrY6xKLEpMSmxKjEqsSsxK7EsMSyxLTHisaqxLnGuMS+xYAwxYLFhMWGxYjFisapx4zIvMWQxZLFmseFxZbFmDfFmjbFnMmUx47FosWkxabFqMWqyYLHmMWwxbLFtMW2xbjFusW8xIDFv8esxLnHpcaGx6jEi8eqx6PGkcaTN8ewxpdhxpnHucadyLfEmMahxJDItcalyLjEjsi6xLjIvcatyYDGsMmDxrPJhsS2yLvEusS8yYvGu8mPxr7JksWMxZ4tyZbHhMeGyZvJncmfxZ7JoceQx5LJpceWyajHmsmrx53JrsehybHGkMaEybUixonJt8aNybnHrsm8x7DHsse0x7bHuMacx7zHvsiTyIHIg8iFyIfIiciLyI3Ij8WeyJLEm8WvbmXEhcW9y5FlTnVtYsW4yJHFrXTGik9mUGx1Z8Sfx7nEgMiJyILIhGVky6PLpci7InDLpMumbnMvxol5xbhfy6rLh29yxqjLs8uwy7bHocyCy7XLt8u5y7vLvciEy7/HoXJvb3QvTcaLbyBBx7VyaWNhbiDFtcW2zJPMlcyYxbjMm8ydzJ/In2YxxL7HoW/Fr2PIm3nIkS43xJtjaMiDa8utxIZmxbPIicewdsW4c2lvxLgix5HIsMSbzI/Mkcyic8yWzKTMmsyczJ7MoGbNjW/NkMymzZPMqTXMrcyvzLHMs8y1Isy3zLnMuzrMvWzMv82KzJDMksyUzY7Ml8yZzZnMqMyhza3Nl82wzZLNsmbFgznEozHNvcaFM82dYcywxJHNoMy2zLhjzLrGkM2nzakizYvNrMyVza/Mpc23zZTNls2YzpPMqTE1MTbOgc6DzLI6x4XNoc2jzojNpcisyKUidmnNg2LIgkxhy7pyx7fKgc6Zx7/Ojc2rzZbOkc2RzKfOlM20zpbOu86YOMSpMsuUxIDMrs6CzZ/OoMy0zobNpM6KzL5lx7DOjs64zr7Nms2zzKPNts6/xbYyz5rOgMW9z4bOns6FzaLOh86JzLzPjs+QzrfNtM65zbHOvM+WzpLPmGbFoDLOnM+dzZ7OhM+JzqLPos2lzovPj82qzYzPqM+TzbjOlc+Xz5TPr8SxxZDFosiwz7PPh8+1zqHPi86kz43NqM+7zrbPvc6Qz7/Pq82O0JXMqcWRMzTOnc+I0IzPoc+Mz6TQkH3QpNCky5DMnWXQiMSAy5bLmMuay5zEucuey6DLosu0y6fImMuGy6zLrtC0zYbMhsuny7jOr8yK0Ld0zI3LkNC6y6jLstGF0L7OsMu80YHMjcW9z5HPvtCC0IDOvdGRzZTMq8+cz4XPtM6f0J/Oo8+jzabPpcSbzYFyzYPNhcSVzYjGqNGP0JTRlMyp0IHPrdCDzZzQic+fz7bQjdGdz7rPptCTza7QmM+V0JfRqsW2zbrNvM2+MdGXIs+e0J7PitCg0I7Qos6M0ajRuNG8zZXRk9GtzbjOmc6b0J3Qi9KG0ZzOpcijzqfOqc6rzq3Qv86xy4HHus6bzrXSi82P0o3RrM660IMxz4E5z4PSlNGa0pbPuNCP0orPp9Gp0pDQls210rbMqc+azKzRsNKFz7fQodGe0KPPvM6P0ozSudG60rjSqM24z7DPstGY0IrSr9K/0ojTgdKz0bfSpdOG0o7PrNOJzZTFpjLQhjPQqtKD0ZnPoNKX0rLQkdKkz6nOl9OH0blm0JrQnNK90pXTkNG0z6XQpdCk",
-                      "faIcon": "fa fa-life-bouy"
-                    }
-                  ]
-              }
+    "launchpad": {
+            "title": "",
+            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
+            "plugins": [
+                {
+                    "title": "Proteccion costera natural",
+                    "description": "Need Spanish translation",
+                    "pluginName": "natural_coastal_protection"
+                }
             ]
-        }
-    ]
+      }
 }
 
 
