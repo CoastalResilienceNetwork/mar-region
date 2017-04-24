@@ -1,0 +1,12 @@
+[
+    {
+        "displayName": "Meso American Reef",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
+            "name": "Meso American Reef"
+        },
+        "includeAllLayers": true
+    }
+]
