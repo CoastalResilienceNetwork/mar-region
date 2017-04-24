@@ -38,9 +38,9 @@
         { "name": "Terreno"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "regional-planning",
         "natural_coastal_protection",
 		"flood_slr",
+        "regional-planning",
         "measure"
     ],
     "print": {
@@ -53,20 +53,6 @@
     "active": "#0096D6"
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-    "subregions": {
-        "color": "#00C5CD",
-        "opacity": 0.2,
-        "clickToFocus": true,
-        "hideByDefault": false,
-        "areas": [
-            {
-                "id": "Subregion",
-                "display": "Subregion1",
-                "details": "example",
-                "shape": [[-119.401817,34.333930],[-119.026909,34.333930],[-119.026909,34.115917],[-119.401817,34.115917]]
-            }
-        ]
-    },
     "launchpad": {
             "title": "",
             "description": "<p>Need Spanish intro</p>",
