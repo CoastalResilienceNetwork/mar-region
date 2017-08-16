@@ -39,7 +39,7 @@
     ],
     "pluginOrder": [
         "natural_coastal_protection",
-		"flood_slr",
+		"flood-slr",
         "regional-planning",
         "measure"
     ],

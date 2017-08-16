@@ -1,0 +1,94 @@
+{
+	"includeMinimize": true,
+	"infoGraphic": {
+		"show": false,
+		"popup": true,
+		"width":600,
+		"height":400, 
+		"url":"<img style='style='position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);' src='PLUGIN-DIRECTORY/slr_flooding_c.jpg'/>"
+	},
+	"tooltips": {
+		"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+		"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+		"climate": "Future planning horizons representing the impact of climate change.",
+		"scenario": "Sea level rise scenarios (low, medium, and high) based on the regional sea level rise amounts.",
+		"hurricane": "Hurrican categories (Saffir-Simpson hurricane wind scale, ranging from 1 to 5) used to model storm surge heights.",
+		"dataSource": "Source of hazard data to be mapped in the application.",
+		"sealevelrise": "Sea level rise inundation scenarios ranging from zero to six feet above mean higher high water (MHHW)."
+	},
+	"region": {
+		"Mesoamerican Reef": {
+			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef/Flood_SLR/MapServer",
+			"layers": {
+				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef/Flood_SLR/MapServer"
+			},
+			"tooltips": {
+				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.",
+				"sealevelrise": "Sea level rise inundation scenarios ranging from 1 to 2 meters."
+			},
+			"extent": {
+				"xmin":-9921210.4677,
+				"ymin":1767838.9513,
+				"xmax":-9462636.0097,
+				"ymax":2561441.1491,
+				"spatialReference":{
+					"wkid":102100,
+					"latestWkid":3857
+				}
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "Sea Level Rise",
+								"value": "sea_level_rise",
+								"controls": {
+									"togglebutton":["sealevelrise"]
+								}
+							}
+						]
+					}
+				},
+				"togglebutton": {
+					"sealevelrise": {
+						"controls": {
+							"1m": {
+								"disabled": false,
+								"show": true,
+								"type": "radio",
+								"group": "sealevelrise",
+								"name": "1m",
+								"value": "1m",
+								"label": "1-meter rise",
+								"checked": true
+							},
+							"2m": {
+								"disabled": false,
+								"show": true,
+								"type": "radio",
+								"group": "sealevelrise",
+								"name": "2m",
+								"value": "2m",
+								"label": "2-meter rise",
+								"checked": false
+							}
+						},
+						"label": "Select Sea Level Rise:"
+					}
+				}
+			},
+			"download": {
+				"report":"",
+				"data":""
+			}
+		}
+		
+		
+	}
+}
