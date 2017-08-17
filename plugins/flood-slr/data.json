@@ -1,0 +1,8 @@
+{
+	"region": {
+		"Mesoamerican Reef": {
+			"sea_level_rise|1m": [0],
+			"sea_level_rise|2m": [1]
+		}
+	}
+}
