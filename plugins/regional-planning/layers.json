@@ -5,8 +5,110 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
-            "name": "Meso American Reef"
+            "name": "MesoAmerican_Reef"
         },
-        "includeAllLayers": true
+        "includeLayers": [
+            {
+                "name": "Bathymetry",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal ManagementMAR",
+                "displayName": "Coastal Management"
+            },
+            {
+                "name": "Ecological",
+                "includeAllLayers": true
+            }
+        ]
+    },
+    {
+        "displayName": "Quintana Roo",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
+            "name": "MesoAmerican_Reef"
+        },
+        "includeLayers": [
+            {
+                "name": "Boundaries",
+                "displayName": "Boundaries"
+            },
+            {
+                "name": "Coastal ManagementQR",
+                "displayName": "Coastal Management",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Coastal Structures",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Socioeconomic Exposure",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Hazards",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Reef protection",
+                "includeAllLayers": true
+            }
+        ]
+    },
+    {
+        "displayName": "South MAR",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
+            "name": "MesoAmerican_Reef"
+        },
+        "includeLayers": [
+            {
+                "name": "Vulnerability to Climate Change",
+                "displayName": "Vulnerability to Climate Change",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Sea Level Rise",
+                "displayName": "Sea Level Rise",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Air Temperature Scenarios",
+                "displayName": "Air Temperature Scenarios",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Precipitation",
+                "displayName": "Precipitation",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Precipitation and Air Temperature",
+                "displayName": "Precipitation and Air Temperature",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Sea Surface Warming",
+                "displayName": "Sea Surface Warming",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Project study area",
+                "displayName": "Project study area"
+            },
+            {
+                "name": "Land use/ Land cover",
+                "displayName": "Land use/ Land cover"
+            },
+            {
+                "name": "Urban areas",
+                "displayName": "Urban areas"
+            }
+        ]
     }
 ]
