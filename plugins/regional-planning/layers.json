@@ -4,23 +4,20 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
             "name": "MesoAmerican_Reef"
         },
         "includeLayers": [
             {
                 "name": "Bathymetry",
-                "displayName": "Bathymetry",
                 "includeAllLayers": true
             },
             {
-                "name": "Coastal Management",
-                "displayName": "Coastal Management",
-                "includeAllLayers": true
+                "name": "Coastal ManagementMAR",
+                "displayName": "Coastal Management"
             },
             {
                 "name": "Ecological",
-                "displayName": "Ecological",
                 "includeAllLayers": true
             }
         ]
@@ -30,7 +27,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
             "name": "MesoAmerican_Reef"
         },
         "includeLayers": [
@@ -39,28 +36,24 @@
                 "displayName": "Boundaries"
             },
             {
-                "name": "Coastal Management",
+                "name": "Coastal ManagementQR",
                 "displayName": "Coastal Management",
                 "includeAllLayers": true
             },
             {
                 "name": "Coastal Structures",
-                "displayName": "Coastal Structures",
                 "includeAllLayers": true
             },
             {
                 "name": "Socioeconomic Exposure",
-                "displayName": "Socioeconomic Exposure",
                 "includeAllLayers": true
             },
             {
                 "name": "Hazards",
-                "displayName": "Hazards",
                 "includeAllLayers": true
             },
             {
                 "name": "Reef protection",
-                "displayName": "Reef protection",
                 "includeAllLayers": true
             }
         ]
@@ -70,7 +63,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
             "name": "MesoAmerican_Reef"
         },
         "includeLayers": [
