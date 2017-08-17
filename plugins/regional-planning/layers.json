@@ -7,6 +7,19 @@
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Meso_American_Reef",
             "name": "MesoAmerican_Reef"
         },
-        "includeAllLayers": true
+        "includeLayers": [
+            {
+                "name": "Meso American Reef",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Quintana Roo",
+                "includeAllLayers": true
+            },
+            {
+                "name": "South MAR",
+                "includeAllLayers": true           
+            }
+        ]
     }
 ]
